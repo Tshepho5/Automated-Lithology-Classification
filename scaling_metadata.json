@@ -1,0 +1,95 @@
+{
+  "dataset_name": "15_9-23_cleaned.csv",
+  "split_ratio": {
+    "train": 0.8,
+    "test": 0.2
+  },
+  "random_state": 42,
+  "feature_columns_raw": [
+    "GR",
+    "RHOB",
+    "NPHI",
+    "DTC",
+    "CALI",
+    "RDEP"
+  ],
+  "feature_columns_scaled": [
+    "GR_scaled",
+    "RHOB_scaled",
+    "NPHI_scaled",
+    "DTC_scaled",
+    "CALI_scaled",
+    "RDEP_scaled"
+  ],
+  "scaler_type": "StandardScaler",
+  "scaler_parameters": {
+    "GR": {
+      "mean": 85.61825696268893,
+      "scale_std": 47.295785590658724,
+      "variance": 2236.8913346375616
+    },
+    "RHOB": {
+      "mean": 2.3429519194712363,
+      "scale_std": 0.16606229329075525,
+      "variance": 0.027576685252984817
+    },
+    "NPHI": {
+      "mean": 0.30331908229448845,
+      "scale_std": 0.12846441614104545,
+      "variance": 0.0165031062144597
+    },
+    "DTC": {
+      "mean": 118.93307395906992,
+      "scale_std": 29.447240365870964,
+      "variance": 867.1399651653803
+    },
+    "CALI": {
+      "mean": 12.070192345139212,
+      "scale_std": 1.251651096072382,
+      "variance": 1.566630466299195
+    },
+    "RDEP": {
+      "mean": 1.4227962530189,
+      "scale_std": 1.447154206322112,
+      "variance": 2.0942552968757817
+    }
+  },
+  "train_samples": 8709,
+  "test_samples": 2178,
+  "train_class_counts": {
+    "Shale": 6100,
+    "Limestone": 1304,
+    "Marl": 730,
+    "Sandstone": 442,
+    "Coal": 59,
+    "Tuff": 51,
+    "Chalk": 23
+  },
+  "test_class_counts": {
+    "Shale": 1525,
+    "Limestone": 326,
+    "Marl": 182,
+    "Sandstone": 111,
+    "Coal": 15,
+    "Tuff": 13,
+    "Chalk": 6
+  },
+  "train_class_proportions_pct": {
+    "Shale": 70.04,
+    "Limestone": 14.97,
+    "Marl": 8.38,
+    "Sandstone": 5.08,
+    "Coal": 0.68,
+    "Tuff": 0.59,
+    "Chalk": 0.26
+  },
+  "test_class_proportions_pct": {
+    "Shale": 70.02,
+    "Limestone": 14.97,
+    "Marl": 8.36,
+    "Sandstone": 5.1,
+    "Coal": 0.69,
+    "Tuff": 0.6,
+    "Chalk": 0.28
+  }
+}

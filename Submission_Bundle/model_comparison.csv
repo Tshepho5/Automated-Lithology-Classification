@@ -1,0 +1,6 @@
+Model,Test Accuracy (%),Macro-F1,Weighted-F1,5-Fold CV Macro-F1,Train Time (s)
+Extra Trees,96.65,0.8696,0.9659,0.8749,0.29
+Random Forest,96.46,0.86,0.964,0.8684,0.58
+K-Nearest Neighbors,96.46,0.8426,0.964,0.8528,0.01
+Logistic Regression,94.77,0.6295,0.9438,0.6735,0.14
+HistGradientBoosting,82.14,0.2895,0.7734,0.4448,3.14
