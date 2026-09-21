@@ -79,7 +79,7 @@ Below is a 6-track composite well log profile generated across the heterogeneous
 ### 1. Installation
 Clone the repository and install the dependencies:
 ```bash
-git clone https://github.com/your-username/Automated-Lithology-Classification.git
+git clone https://github.com/Tshepho5/Automated-Lithology-Classification.git
 cd Automated-Lithology-Classification
 pip install -r requirements.txt
 ```
